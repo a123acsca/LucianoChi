@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  line-height: 24px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.ancho {
+  max-width: 1400px;
+  margin: auto;
+}
+.contenedor_padre {
+  background-color: black;
+}
+.contenedor1 {
+  color: white;
+  padding-bottom: 300px;
+}
+.mi_nombre {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+  font-size: 20px;
+}
+.contenedor_menu {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+  margin-left: 500px;
+  font-size: 18;
+}
+.contenedor_menu a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.contenedor_menu a:hover {
+  text-decoration: underline;
+}
+.contenedor_presentacion {
+  max-width: 700px;
+}
+.contenedor_presentacion h2 {
+  font-size: 30px;
+}
+.contenedor_presentacion h1 {
+  line-height: 35px;
+  font-size: 40px;
+}
+.contenedor_presentacion p {
+  font-size: 18px;
+}
+.boton1 {
+  padding: 5px 10px;
+  border: 1px red solid;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 30px;
+  margin-right: 5px;
+}
+.boton1:hover {
+  background-color: red;
+}
+.boton1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.boton2 {
+  padding: 5px 10px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px red solid;
+  border-radius: 30px;
+}
+.boton2:hover {
+  background-color: red;
+}
+.boton2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.ancho2 {
+  max-width: 1000px;
+  margin: auto;
+}
+.mifoto {
+  padding-top: 70px;
+}
+.contenedor2 {
+  margin-top: 100px;
+}
+.titulo1 {
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+}
+.contenedor2 hr {
+  max-width: 150px;
+  margin: auto;
+  height: 8px;
+  background-color: black;
+  margin-top: 8px;
+  border: 0px;
+}
+.contenedor2 img {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.autobiografia {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 500px;
+  margin-left: 100px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.correo {
+  text-decoration: none;
+  color: black;
+}
+.no_btn {
+  text-decoration: none;
+  color: black;
+}
+.tabla_info td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn2 {
+  border: 1px red solid;
+  padding: 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+}
+.btn2:hover {
+  background-color: red;
+  color: white;
+}
+.contenedor3 {
+  margin-top: 200px;
+}
+.titulo2 {
+  text-align: center;
+}
+.contenedor3 hr {
+  max-width: 90px;
+  margin: auto;
+  height: 8px;
+  background-color: black;
+  margin-top: 8px;
+  border: 0px;
+}
+.contenedor_cajas {
+  margin-top: 30px;
+  display: flex;
+}
+.caja {
+  max-width: 250px;
+  text-align: center;
+  margin: 5px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+}
+.contenedor4 {
+  margin-top: 200px;
+}
+.titulo3 {
+  text-align: center;
+}
+.contenedor4 hr {
+  max-width: 75px;
+  margin: auto;
+  height: 8px;
+  background-color: black;
+  margin-top: 8px;
+  border: 0px;
+}
+.contenedor_formulario {
+  text-align: center;
+  margin-top: 25px;
+}
+.contenedor_formulario input[type="text"] {
+  width: 550px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 15px;
+  border: 1px black solid;
+  padding: 5px;
+}
+#asunto {
+  text-align: left;
+  width: 1125px;
+  margin-top: 25px;
+}
+.contenedor_formulario textarea {
+  border: 1px black solid;
+  width: 1125px;
+  margin-top: 25px;
+  resize: none;
+  padding: 5px;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+.contenedor_formulario a {
+  border: 1px black solid;
+  padding: 5px 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+}
+.btn3:hover {
+  background-color: black;
+  color: white;
+}
+.redes {
+  background-color: #eee;
+  margin-top: 60px;
+}
+.abajo img {
+  padding: 5px;
+}
+.info_abajo {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  margin-left: 800px;
+  line-height: 45px;
+}
+.info_abajo a {
+  text-decoration: none;
+  color: black;
+}
+.titulo5 {
+  text-align: center;
+}
+.contenedor5 {
+  margin-top: 200px;
+}
+.contenedor5 hr {
+  max-width: 75px;
+  margin: auto;
+  height: 8px;
+  background-color: black;
+  margin-top: 8px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+.contenedor_caja2 {
+  display: flex;
+}
+.caja2 {
+  max-width: 300px;
+  text-align: center;
+  margin: 5px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+}
+.contenedor2_caja2 {
+  display: flex;
+}
+.contenedor_caja2 img {
+  height: 250px;
+  width: 250px;
+}
+.contenedor2_caja2 img {
+  height: 250px;
+  width: 250px;
+}
